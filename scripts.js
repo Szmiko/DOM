@@ -2,10 +2,10 @@ var buttons = document.getElementsByClassName('button');
 
 console.log(buttons);
 
-var i = buttons.length;
+var n = buttons.length;
 
-for (var j = 1; j <= i; j++) {
-	var textButtons = document.getElementsByClassName('button')[0].innerText;
+for (var j = 0; j <= n; j++) {
+	var textButtons = document.getElementsByClassName('button')[j].innerText;
 	alert(textButtons);
 	console.log(textButtons);
 }
